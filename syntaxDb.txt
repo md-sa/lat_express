@@ -1,0 +1,7 @@
+show dbs;
+use my_db
+db.createCollection('user')
+db.createCollection('product')
+db.createCollection('order')
+show collections
+show dbs
